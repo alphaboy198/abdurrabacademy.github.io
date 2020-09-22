@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 61px;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 13px;
+    
+}
+#logo img{
+    height: 49px;
+    filter: invert(1);
+}
+#navbar li{
+    list-style: none;
+    text-decoration: none;
+    
+}
+#navbar li a{
+    text-decoration: none;
+    color: white;
+    margin: 23px;
+    font-size: 1.3rem;
+   
+}
+#navbar li a:hover{
+    color: red;
+    background-color: aqua;
+    border-radius: 12px;
+    padding: 14px;
+}
+
+#introSection{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: greenyellow;
+    height: 400px;
+   
+    border: 2px solid black;
+    background: center / cover no-repeat url("/static/dance.jpg");
+    /* opacity: 0.2; */
+    
+  
+}
+#ourMission{
+    height: 251px;
+    text-align: center;
+    margin-top: 23px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+#ourMission h2{
+    text-align: center;
+    
+}
+.card{
+    height: 195px;
+    width: 27%;
+    border: 2px solid black;
+    /* display: flex; */
+    /* flex-direction: row; */
+    display: inline-block;
+    margin: auto;
+    margin-top: 12px;
+    padding: -2px 30px;
+    margin: 7px 29px;
+    border-radius: 18px;
+
+}
+.card p{
+    padding: 17px;
+    font-size: 12px;
+}
+.card h2{
+    margin-top: 18px;
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-img{
+   height: 100px;
+   padding: 0 14px;
+}
+.card-img img{
+   height: inherit;
+   padding: 0 14px;
+}
+#sponserSection{
+    background-color:antiquewhite;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    /* align-items:center; */
+    padding: 49px;
+}
+#sponserSection img{
+    display: flex;
+    flex-direction: row;
+    width: 17%;
+    height: 90%; display: flex;
+    flex-direction: row;
+    width: 23%;
+    padding: 23px;
+}
+#footer{
+    background-color: rgb(0, 0, 0);
+    height: 70px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
